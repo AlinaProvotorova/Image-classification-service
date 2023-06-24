@@ -1,0 +1,7 @@
+Flask==2.3.2
+Flask-WTF==1.1.1
+python-dotenv==1.0.0
+requests==2.31.0
+WTForms==3.0.1
+torchvision==0.15.2 --only-binary torchvision.transforms torchvision.models
+
