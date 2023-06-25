@@ -1,7 +1,8 @@
 # Image-classification-service
+Сервис выводит данные картинки: ширину, высоту и описание
 
 #### Подготовка к запуску приложения:
-- Клонируйте репозиторий yacut командой в терминале:
+- Клонируйте репозиторий командой в терминале:
 ```commandline
 ...$  git clone https://github.com/AlinaProvotorova/image-classification-service.git
 ```
@@ -19,6 +20,8 @@ SECRET_KEY=THE_SECRET_KEY
 ```commandline
 ...$  docker compose up --build 
 ```
+(последующий запсук командой `docker compose up`)
+
 После запуска приложение будет доступно по [адресу](http://localhost:8000)
 
 ### Запуск приложения локально без docker-compose:
@@ -35,9 +38,10 @@ SECRET_KEY=THE_SECRET_KEY
 ```
 в терминале введите команду:
 ```
-(venv) ...$ flask run --port 80
+(venv) ...$ flask run
 ```
-После запуска приложение будет доступно по [адресу](http://localhost:8000)
+После запуска приложение будет доступно по [адресу](http://127.0.0.1:5000
+)
 
 #### Тестирование приложения:
 
